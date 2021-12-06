@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'my_PopupWindow_Example' do
+  pod 'my_PopupWindow', :path => '../'
+
+  target 'my_PopupWindow_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
